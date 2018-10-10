@@ -16,6 +16,26 @@ window.addEventListener('mousemove', function(e){
     mouse.y = e.y;
 })
 
+window.addEventListener('touchstart', function(e){
+    mouse.x = e.x;
+    mouse.y = e.y;
+})
+
+window.addEventListener('touchend', function(e){
+    mouse.x = e.x;
+    mouse.y = e.y;
+})
+
+window.addEventListener('touchcancel', function(e){
+    mouse.x = e.x;
+    mouse.y = e.y;
+})
+
+window.addEventListener('touchmove', function(e){
+    mouse.x = e.x;
+    mouse.y = e.y;
+})
+
 window.addEventListener('resize', function() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
