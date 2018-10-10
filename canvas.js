@@ -16,22 +16,22 @@ window.addEventListener('mousemove', function(e){
     mouse.y = e.y;
 })
 
-window.addEventListener('touchstart', function(e){
+document.addEventListener('touchstart', function(e){
     mouse.x = e.x;
     mouse.y = e.y;
 })
 
-window.addEventListener('touchend', function(e){
+document.addEventListener('touchend', function(e){
     mouse.x = e.x;
     mouse.y = e.y;
 })
 
-window.addEventListener('touchcancel', function(e){
+document.addEventListener('touchcancel', function(e){
     mouse.x = e.x;
     mouse.y = e.y;
 })
 
-window.addEventListener('touchmove', function(e){
+document.addEventListener('touchmove', function(e){
     mouse.x = e.x;
     mouse.y = e.y;
 })
