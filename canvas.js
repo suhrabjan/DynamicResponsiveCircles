@@ -49,9 +49,9 @@ function Circle(x, y, dx, dy, radius, randColors) {
         this.y += this.dy;
 
         if (Math.abs(mouse.x - this.x) < 50 && Math.abs(mouse.y - this.y) < 50 && this.radius < maxRadius) {
-            this.radius += 1.7;
+            this.radius += 1.2;
         } else if (this.radius > this.minRadius){
-            this.radius -= 1.7;
+            this.radius -= 1.2;
         }
     }
 }
@@ -59,7 +59,7 @@ function Circle(x, y, dx, dy, radius, randColors) {
 let arr = [];
 function init(){
     arr = [];
-    for (let i=0; i<900; i++) {
+    for (let i=0; i<1200; i++) {
         let radius = Math.random() * 3 + 2;
         let x = Math.random() * (innerWidth - 2 * radius) + radius;
         let y = Math.random() * (innerHeight - 2 * radius) + radius;
