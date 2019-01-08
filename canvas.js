@@ -59,7 +59,7 @@ function Circle(x, y, dx, dy, radius, randColors) {
 let arr = [];
 function init(){
     arr = [];
-    for (let i=0; i<1200; i++) {
+    for (let i=0; i<500; i++) {
         let radius = Math.random() * 3 + 2;
         let x = Math.random() * (innerWidth - 2 * radius) + radius;
         let y = Math.random() * (innerHeight - 2 * radius) + radius;
